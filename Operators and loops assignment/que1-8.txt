@@ -1,0 +1,106 @@
+﻿1.What are the conditional operators in java?
+=>Conditional operators in Java are operators that are used to evaluate a condition and return a value based on the result of the evaluation. There are three types of conditional operators in Java:
+(i) Conditional AND (&&): The && operator is used to evaluate two boolean expressions and return true if both expressions are true, otherwise it returns false.
+(ii) Conditional OR (||)  :The || operator is used to evaluate two boolean expressions and return true if at least one expression is true, otherwise it returns false.
+(iii)Ternary Operator (?:) :The ?: operator is a ternary operator that is used to evaluate a condition and return one of two values based on the result of the evaluation. 
+Syntax:
+<condition> ? <value_if_true> : <value_if_false>
+For example, the code uses the ternary operator to evaluate the condition a > b and return "a is greater than b" if the condition is true, otherwise it returns "a is not greater than b":
+String result = (a > b) ? "a is greater than b" : "a is not greater than b";
+
+2.What are the types of operators based on the number of operands?
+=>Operators are classified based on the number of operands they require: 
+* Nullary: No operands
+* Unary: One operand
+* Binary: Two operands
+* Ternary: Three operands
+
+3.What is the use of switch case in java programming?
+=>The switch statement in Java allows us to execute a block of code among many alternatives. It is similar to the if-else statement, but it is more efficient because it does not compare the expression to each case multiple times.
+
+4.What are the priority levels of arithmetic operation in java?
+=>The priority levels of arithmetic operations in Java are as follows:
+1. Exponentiation
+2. Multiplication and Division
+3. Addition and Subtraction
+4. Modulus
+5. Unary Operations
+
+5.What are the conditional statements in java and use of conditional statement in java?
+=>Conditional statements in Java are used to make decisions in a program based on some specific conditions. These statements allow the program to execute different lines of code depending on a particular condition is true or false.
+The following are the four conditional statements in Java:
+
+(i)If statement :: The if statement is the most basic conditional statement in Java. If the expression evaluates to true, the body of the if statement is executed, otherwise it is skipped.
+Syntax: 
+if (condition) {
+  // code to execute if the condition is true
+}
+
+(ii) If-else statement :: The if-else statement is a variation of the if statement that allows you to execute different blocks of code depending on whether the condition evaluates to true or false. The if-else statement consists of two parts: the if statement and the else statement. The if statement is executed if the condition evaluates to true, otherwise the else statement is executed. 
+Syntax:
+if (condition) {
+  // code to execute if the condition is true
+} else {
+  // code to execute if the condition is false
+}
+
+(iii) Else-if ladder: The else-if ladder is a conditional statement that allows you to check multiple conditions in a single statement. The else-if ladder consists of a series of if-else statements, each of which checks a different condition. The first if-else statement that evaluates to true is executed, and the rest of the if-else statements are skipped.
+Syntax:
+if (condition1) {
+  // code to execute if the condition1 is true
+} else if (condition2) {
+  // code to execute if the condition1 is false and condition2 is true
+} else {
+  // code to execute if none of the conditions are true
+}
+
+(iv) Switch statement: The switch statement is a conditional statement that allows you to check a single value against a set of possible values. The switch statement consists of a switch keyword, followed by parentheses that contain the value to be checked, followed by a series of case statements. The first case statement that matches the value is executed, and the rest of the case statements are skipped.
+Syntax:
+switch (value) {
+  case 1:
+    // code to execute if the value is 1
+    break;
+  case 2:
+    // code to execute if the value is 2
+    break;
+  default:
+    // code to execute if the value does not match any of the cases
+    break;
+}
+Conditional statements are an essential part of Java programming, and they are used to:
+* Control the flow of your program.
+* Make decisions based on user input.
+* Validate data input.
+* Handle errors.
+* Implement different algorithms.
+
+6.What is the syntax of if-else statement?
+=> If-else statement :: The if-else statement is a variation of the if statement that allows you to execute different blocks of code depending on whether the condition evaluates to true or false. The if-else statement consists of two parts: the if statement and the else statement. The if statement is executed if the condition evaluates to true, otherwise the else statement is executed. 
+Syntax:
+if (condition) {
+  // code to execute if the condition is true
+} else {
+  // code to execute if the condition is false
+}
+
+7.What are the 3 types of iterative statements in java?
+=>There are three types of iterative statements in Java:
+* While loop: The while loop is the most basic iterative statement. It repeats a block of 
+code as long as a condition is true.
+ while (condition)
+ {
+  // code block
+ }
+* Do-while loop: The do-while loop is similar to the while loop, but it always executes the block of code at least once, even if the condition is false.
+do {
+  // code block
+} 
+while (condition);
+* For loop: The for loop is the most powerful iterative statement. It allows you to repeat a block of code a specific number of times or until a condition is met.
+for (int i = 0; i < 10; i++) {
+  // code block
+}
+Iterative statements are used to execute a block of code repeatedly until a specific condition is met
+
+8.Write the difference between for loop and do-while loop?
+=>The main difference between a for loop and a do-while loop is that a for loop will always execute the code in the loop at least once, while a do-while loop will only execute the code in the loop if the condition is true.
