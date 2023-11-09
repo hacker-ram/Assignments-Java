@@ -1,0 +1,51 @@
+﻿1.What is statically typed and dynamically  typed programming language?
+=>Statically typed language:
+Data types are defined during compile time and cannot change during runtime. Type errors are found during compilation. More robust and trustworthy code.
+
+Dynamically typed language:
+Type checking at run-time. Flexible, concise. Useful for quickly writing short programs.
+
+
+2.What is the variable in java?
+=>In Java, a variable is a named memory location that can store data values. It's a container that holds the value while the Java program is executed. Variables are assigned with a data type which determines the type and amount of value that each variable can contain.
+The data types of the variables determine the type (int, char, float, etc.) of the variable. For example, if we declare a variable as an integer.
+
+3.How to assign a value to a variable?
+=>The first time a variable is assigned a value, it is said to be initialized. The = symbol is known as the assignment operator.we can also declare a variable and assign it a value in the same line.
+
+4.What are the primitive data types in java?
+=>In Java, primitive data types are the basic building blocks of data manipulation. They are predefined by the Java language and have fixed sizes and types. The 8 primitive data types in Java are:
+(i)   byte: A signed byte that can hold values from -128 to 127
+(ii)  short: A signed short that can hold values from -32768 to 32767
+(iii) int: A signed integer that can hold values from -2147483648 to 2147483647
+(iv)long:A signed long that can hold values from -9223372036854775808 to 9223372036854775807
+(v) float: A floating-point number that can hold values with up to 7 decimal digits of precision
+(vi)double: A floating-point number that can hold values with up to 16 decimal digits of precision
+(vii)char: A single character that can be any Unicode character
+(viii)boolean: A boolean value that can be either true or false
+
+5.What are the identifiers in java?
+=>They are names given to a class, variable, package, method, or interface and allow the programmer to refer to the specific item from any place in the program.
+Identifiers should be meaningful and descriptive so that they are easy to understand and remember. They should also be consistent with the naming conventions used in the rest of the program.
+Identifiers must start with a letter (a-z or A-Z) or the underscore character (_). They can be any combination of letters, numbers, and underscores. However, there are some reserved words that cannot be used as identifiers.
+
+6.List the operators in java?
+=>Here are the eight types of operators in Java:
+(i) Arithmetic operators :: Perform arithmetic operations on numbers, such as addition, subtraction, multiplication, and division.
+(ii)  Relational operators :: Compare two values and return a boolean value, such as equal to, not equal to, greater than, or less than.
+(iii) Assignment operators :: Assign a value to a variable.
+(iv) Logical operators :: Combine two or more boolean values to return a single boolean value, such as and, or, and not.
+(v) Bitwise operators :: Perform operations on the individual bits of a number, such as and, or, and exclusive or.
+(vi) Conditional operators :: Evaluate a condition and return one of two values, depending on the result of the condition.
+(vii) Instanceof operators ::Check if an object is an instance of a particular class.
+(viii)Unary operators :: Perform operations on a single value, such as increment, decrement, and negation.
+
+7.Explain increment and decrement operators and give an examples
+=>Increment (++) and decrement (--) operators in Java are used to increase or decrease the value of a variable by 1. They can be used with both integer and floating-point variables.
+Syntax:
+variableName++;
+variableName--;
+For example, the following code will increment the value of the variable x by 1:
+int x = 5;
+x++;
+
