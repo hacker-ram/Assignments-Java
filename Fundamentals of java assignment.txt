@@ -1,0 +1,35 @@
+﻿1.What is a programming language?
+=>A programming language is a set of grammatical rules and keywords that instruct a computer or device to behave in a certain way. Programming languages are used to write computer programs and computer software.
+
+2.Why do we need a programming language?
+=>Programming languages are needed for several reasons, including: 
+
+(i)  Communication: Programming languages are a way for programmers to communicate with computers. They provide a structured way to write instructions that can be understood by the computer.
+
+(ii) Developing applications: Programming languages are used to develop applications for performing a specific task, automating things, and more.
+
+(iii)Speeding up processes: Programming helps in speeding up the input and output processes in a machine.
+
+(iv) Creating software: Programming helps create software and applications that help computer and mobile users in daily life.
+
+3.What are the features of java?
+=>Features of java are following:
+
+(i).  Simple: >Java is a simple language with a clean syntax. It is easy to learn and use.
+(ii). Object-oriented: >Java is an object-oriented language. This means that everything in Java is an object. Objects have data and methods.
+(iii).Portable: >Java is a portable language. This means that Java code can be run on any platform that has a Java Virtual Machine (JVM).
+(iv). Secure: >Java is a secure language. This means that Java code is not allowed to access the underlying operating system.
+(v).  Robust: >Java is a robust language. This means that Java code is able to handle errors gracefully.
+(vi). Multithreaded: >Java is a multithreaded language. This means that Java code can run multiple tasks at the same time.
+(vii).Distributed: >Java is a distributed language. This means that Java code can be run on multiple computers over a network.
+(viii).Dynamic: >Java is a dynamic language. This means that Java code can be changed at runtime.
+
+4.What is an object?
+=>An object is an instance of a class, which serves as a blueprint or template defining its structure and behavior. The data within an object is represented by variables, often referred to as member variables or attributes
+
+5.What is a class?
+=> A class is a template for creating objects. It defines a set of properties and methods that are common to all objects of one type. 
+
+6.Explain about the main() method in Java?
+=>The main() method in Java is the entry point for executing a Java program. It is a static method, which means that it can be called without creating an object of the class. The main() method can contain code to execute or call other methods
+Syntax:>public static void main(String[] args)
