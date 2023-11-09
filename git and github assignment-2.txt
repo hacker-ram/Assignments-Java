@@ -1,0 +1,47 @@
+﻿1.How to check if git is available on your system?
+=>To check if Git is installed on my system, i will open terminal and type “git --version”. If terminal returns a Git version as an output, that confirms i have Git installed on my system.
+Command - “git --version”
+
+
+2.How to  initialize a new git repository ?
+=>To initialize a new Git repository, I’'ll use the “git init” command. git init is a one-time command we can use during the initial setup of a new repo. Executing this command will create a new .git subdirectory in our current working directory. This will also create a new main branch.
+
+
+3.how to tell git about your name and email?
+=>we can set the global username and email for Git with the ”git config “ command and the “--global” flag. The config here is presuming the use of GitHub where the name can be the GitHub username and the email the email associated with the GitHub username.
+Syntax:
+> git config --global user.name “firstName lastName”
+> git config --global user.email “name@example.com”
+
+
+4.How to add a file to staging area?
+=>To add a file to the staging area, we can use the “ git add “ command. 
+Syntax :
+>git add [file]  
+We can unstage it using 'git reset HEAD [filename]'.
+
+
+5.How to remove a file from the staging area?
+=>We can unstage a file  using 'git reset HEAD [filename]' command.
+
+
+6.How to make a commit?
+=>Once we have staged the changes, we can then commit them by using the “git commit” command.  Where “-m ” shows commit message . 
+Syntax:
+>git commit -m "Commit message"
+
+
+7.How to send your changes to a remote repository?
+=>we can send changes from the local repo to your remote repositories, run “git push -u remote-name branch-name “ where remote-name is the nickname the local repo uses for the remote repositories and branch-name is the name of the branch to push to the repository.
+Syntax:
+>git push -u remote-name branch-name 
+Or
+>git push -u origin
+
+
+
+
+
+
+8.What is the difference between clone and pull?
+=>Git clone copies all files to the local machine, while git pull only copies the modified files to the local machine. Git clone creates a connection between both repositories, while git pull requires a connection to be made before it can work.
