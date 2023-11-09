@@ -1,0 +1,36 @@
+1.What is git?
+=>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and    efficiency.
+
+2.What do you understand by version control system?
+=>A version control system (VCS) is a software that tracks changes to a file or set of files over time. It allows us  to recall specific versions later.A VCS helps a team to manage changes in a source code. It tracks when, and by whom the changes were made, and usually allows us to add some explanation. It also includes tools to help us to merge incompatible changes.
+
+3.What iI GitHub?
+=>GitHub is a web-based platform for software development and version control. It's used for storing, tracking, and collaborating on software projects. GitHub makes it easy for developers to share code files and collaborate with fellow developers on open-source projects. 
+
+4.Mention some popular Git hosting services?
+=> GitHub:-> It is the most popular Git hosting service.It is a web-based platform that offers both public and private repositories.
+   Gitlab:-> It is a complete DevOps platform that offers both public and private repositories.
+   SourceForge:-> It is a free Git hosting service that is open source software development projects.
+   Bitbucket:-> It is another popular Git hosting service.It is owned by Atlassian and it offers both public and private repositories.
+
+5.Different types of version control system?
+=>Local Version Control System.
+  Centralized Version Control System.
+  Distributed Version Control System.
+
+6.What benefits come with using git?
+=>1.Distributed version control: Git allows collaboration across teams without a centralized server dependency.
+  2.Efficient branching and merging: Git branches are cheap and easy to merge.
+  3.History tracking: Git has robust history tracking.
+  4.Free and open source: Git is free and open source, so there is no need to purchase it.
+  5.Supports non-linear development: Git supports non-linear development.
+  6.Creates backups: Git creates backups.
+  7.Scalable: Git is scalable.
+  8.Supports collaboration: Git supports collaboration.
+  9.Fast and small: Git is fast and small because all operations can be performed on the local copy stored on the developer machine.
+
+7.What is a Git repository?
+=>A Git repository is a central storage location for managing and tracking changes in files and directories. It is a crucial component of the Git version control system, which enables collaborative development and allows multiple developers to work on a project simultaneously. 
+
+8.How can you initialize a repository in Git?
+=>To initialize a new repository in Git, we can use the "git init" command.This will create a new .git subdirectory in our current working directory and a new main branch
